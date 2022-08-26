@@ -7,6 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class LoansController {
     @GetMapping("/")
     public String welcome(){
-        return "Welcome to Ishi World Bank Loan Section !!!";
+        return "Welcome to Ishi World Bank Loan Section !!!!";
+    }
+   @GetMapping("/")
+    public  List<String> getAllLoans(){
+
     }
 }
