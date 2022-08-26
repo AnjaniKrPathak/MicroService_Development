@@ -1,0 +1,9 @@
+eureka :
+  client :
+    registeredWithEureka : false
+    fetchRegistory : false
+spring:
+  cloud :
+    config :
+      enabled : false
+
